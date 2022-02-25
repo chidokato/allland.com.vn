@@ -10,7 +10,7 @@
 	</div>
 	<div class="hotline-bar">
 		<a href="tel:0961383811">
-			<span class="text-hotline">0961.38.38.11</span>
+			<span class="text-hotline">{{$head_setting->hotline}}</span>
 		</a>
 	</div>
 </div>
