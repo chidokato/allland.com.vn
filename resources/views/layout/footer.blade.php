@@ -57,7 +57,7 @@
 							<section class="panel-body">
 								<ul class="uk-list list">
 									<li >
-										<a href="https://allland.com.vn/">Mai Việt Land</a> | 
+										<a href="https://allland.com.vn/">All land</a> | 
 										<a href="https://allland.com.vn/gioi-thieu" >Giới thiệu</a> | 
 										<a href="https://allland.com.vn/lien-he" >Liên hệ</a> | 
 										<a href="">Chính sách bảo mật</a> | 
