@@ -18,11 +18,11 @@
                   </li>
               @endif
           @endforeach
-			<li class='icon' style='margin-left: 35px;'>
-				<a target="_blank" href="https://www.facebook.com/maivietland.official/"><img alt='facebook' src='/public/upload/files/fb.png'></a>
+			<li class='icon' style='margin-left: 35px; '>
+				<a style="border-left: none;" target="_blank" href="https://www.facebook.com/maivietland.official/"><img alt='facebook' src='/public/upload/files/fb.png'></a>
 			</li>
 			<li class='icon'>
-				<a target="_blank" href="https://www.youtube.com/channel/UC8AVFTYZdSQ2tIpLcgTvlUg"><img alt='facebook' src='/public/upload/files/youtube.png'></a>
+				<a style="border-left: none;" target="_blank" href="https://www.youtube.com/channel/UC8AVFTYZdSQ2tIpLcgTvlUg"><img alt='facebook' src='/public/upload/files/youtube.png'></a>
 			</li>
         </ul>
       </nav><!-- .main-nav -->    

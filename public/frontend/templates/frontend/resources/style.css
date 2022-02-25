@@ -136,7 +136,8 @@
 	}
 
 	.pc-header .lower {
-		background: url(/public/upload/files/gb.jpg) center center;
+		background: url(img/bg.png) center center;
+		/*background: #245c2e;*/
 	    border-bottom: 1px solid #818285;
 	}
 	.main-nav>.main-menu li {position: relative;}
@@ -148,11 +149,11 @@
 		line-height: 67px;
 		text-transform: uppercase;
 		color: #fff;
-		font-family: Helvetica,Arial,sans-serif;border-left: 1px solid #b8292f;
+		font-family: Helvetica,Arial,sans-serif;border-left: 1px solid #818285;
 	}
 	.icon a{padding: 0px !important;}
 	.main-nav>.main-menu .icon:hover>a, .main-nav>.main-menu .icon .active>a{
-		border-bottom: #b8292f solid 2px;
+		border-bottom: #818285 solid 2px;
 	}
 	
 	.main-nav>.main-menu>li>a:before {
@@ -357,11 +358,11 @@
 		right: 0px;
 		background: url(img/bg-heading.png) 0px 0px no-repeat;
 	}
-	.heading-1>* {color: #b8292f;}
+	.heading-1>* {color: #245c2e; font-weight: bold;}
 	.heading-2 {
 		margin: 10px 0 15px 0;
 		padding-bottom: 10px;
-		border-bottom: 1px solid #b8292f;
+		border-bottom: 1px solid #245c2e;
 		line-height: 24px;
 		font-size: 18px;
 		font-weight: normal;
@@ -371,13 +372,13 @@
 	.heading-new{
 		margin: 10px 0 0 0;
 		padding-bottom: 5px;
-		border-bottom: 1px solid #b8292f;
+		border-bottom: 1px solid #245c2e;
 		line-height: 24px;
 		font-size: 15pt;
 		font-weight: bold;
-		color: #b8292f;
+		color: #818285;
 	}
-	.heading-2>* {color: #b8292f;}
+	.heading-2>* {color: #818285;}
 
 
 	@media (min-width: 960px) {
@@ -474,7 +475,7 @@
 	.aside-prd-detail .heading {
 		margin: 0;
 		padding: 10px 10px 10px 15px;
-		background: #b8292f;
+		background: #818285;
 		font-size: 13px;
 		font-weight: normal;
 		font-family: Helvetica,Arial,sans-serif;
@@ -727,7 +728,7 @@
 	}
 	.homepage-category .product .title a,
 	.prdcatalogue .product .title a {
-		color: #b8292f;
+		color: #818285;
 	}
 	.homepage-category .product .btn-groups,
 	.prdcatalogue .product .btn-group {
@@ -1640,7 +1641,7 @@
 	/* ######################## Tab ######################## */
 	.nav-tabs {
 		border: 1px solid #ddd;
-		//border-bottom: 2px dashed #b8292f;
+		//border-bottom: 2px dashed #818285;
 		border-bottom: none;
 	}
 	.nav-tabs li {
@@ -1650,7 +1651,7 @@
 		line-height: 20px;
 		font-weight: normal;
 		cursor: pointer;
-		color: #b8292f;
+		color: #818285;
 	    font-size: 17px;
 	    font-weight: normal;
 	    font-family: Helvetica,Arial,sans-serif;
@@ -1764,7 +1765,7 @@
 	    font-size: 24px;
 	    line-height: 30px;
 	    font-weight: bold;
-        color: #b8292f;
+        color: #818285;
 	}
 	.prd-detail .prd-price {
 		margin: 0 0 20px 0;
@@ -1782,7 +1783,7 @@
 		width: 100%;
 		padding: 20px 20px 20px 90px;
 		margin-bottom: 20px;
-		background: #b8292f url(img/icon_phone.png) 25px 50% no-repeat;
+		background: #818285 url(img/icon_phone.png) 25px 50% no-repeat;
 		color: #fff;
 		font-size: 16px;
 		line-height: 22px;
@@ -1878,7 +1879,7 @@
 	.price span{
 	    font-size: 17px;
 	    font-weight: bold;
-	    color: #b8292f;
+	    color: #818285;
 	}
 	.description{
 	    border-top: 1px solid #ddd;
@@ -2332,7 +2333,7 @@
 	.consultants-section .hotline a {
 		font-size: 22px;
 		font-weight: bold;
-		color: #b8292f;
+		color: #818285;
 	}
 	.consultants-section .form {
 		position: relative;
@@ -2346,7 +2347,7 @@
 		height: 50px;
 		padding: 0 10px 0 25px;
 		background: #fff;
-		border: 4px solid #b8292f;
+		border: 4px solid #818285;
 		border-right: none;
 		line-height: 50px;	
 		font-size: 14px;
@@ -2360,7 +2361,7 @@
 		top: 0px;
 		left: initial;
 		right: 0px;
-		border: 4px solid #b8292f;
+		border: 4px solid #818285;
 		background: #818285;
 		color: #fff;
 		font-size: 15px;
@@ -2446,9 +2447,8 @@
 		background: url();
 	}
 	.overlay3{
-		background: #b8292f;
 		padding-top: 30px;
-	    padding-bottom: 30px;
+	    padding-bottom: 30px;background: url(img/bg.png) center center;
 	}
 	.footer .upper .panel {margin-bottom: 20px!important;}
 	.footer .upper .heading {
@@ -2747,7 +2747,7 @@
 	/*them css*/
 	.clr{clear: both;}
 	.product-nav{
-		background-color: #b8292f;
+		background-color: #818285;
 		box-shadow: 0 2px 3px rgba(0, 0, 0, 0.11);
 		border-bottom: 1px solid #d7d7d7;
 		padding: 0px;
@@ -2782,7 +2782,7 @@
 	{
 		padding-top: 27px;
 	}
-	.chinh-sach{border: 1px #fff solid;background-color: #b8292f;    position: relative;}
+	.chinh-sach{border: 1px #fff solid;background-color: #818285;    position: relative;}
 	.chinh-sach p{    font-size: 16px;
     line-height: 24px;
     text-align: justify;font-family: Helvetica,Arial,sans-serif;color: #fff;    margin-bottom: 0px;
@@ -2798,7 +2798,7 @@
 		padding: 10px 15px;
 		background-color: #ffffff;
 		font-size: 40px;
-		color: #b8292f;
+		color: #818285;
 		position: absolute;
 		top: 0;
 		    left: 25px;
@@ -2822,7 +2822,7 @@
 	    margin-bottom: 15px;
 	}
 	.dangky input[type="submit"]{
-		background-color: #b8292f;
+		background-color: #818285;
 	    color: #fff;
 	    border: none;
 	    padding: 10px 20px;
@@ -2858,7 +2858,7 @@
 	.product .price-hot{
 	    top: 5px;
 	    left: 5px;
-	    background-color: #b8292f;
+	    background-color: #818285;
 		padding: 6px 10px;
 		color: #fff !important;
 		border-radius: 5px;
@@ -2866,7 +2866,7 @@
 	.product .price{
 	    bottom: 5px;
 	    left: 5px;
-	    background-color: #b8292f;
+	    background-color: #818285;
 	    color: #fff;
 		padding: 6px 10px;
 		border: none;
@@ -2883,7 +2883,7 @@
 	    
 	}
 	.infor h3 a{
-		color: #b8292f;
+		color: #818285;
 	}
 
 	.dat-cho {
@@ -2957,7 +2957,7 @@
 	}
 	.main-search input[type="submit"]{
 	    background-color: #fff;
-	    color: #b8292f;
+	    color: #818285;
 	    font-weight: bold;border-radius: 5px;
 	}
 	.main-hot{
@@ -2965,7 +2965,8 @@
 	}
 	.main-dang-ky{
 		margin-top: 30px;
-	    background: url(/public/upload/files/gb.jpg) center center;
+	    background: url(img/bg.png) center center;
+	    /*background: #245c2e;*/
 	    padding: 0px;
 	}
 	.main-dang-ky h4{
@@ -2975,7 +2976,7 @@
 	    margin-bottom: 30px;line-height: 30px;
 	}
 	.img-flash{
-		border: 1px solid #b8292f;
+		border: 1px solid #818285;
 	}
 	.bg-dangky{
 		padding: 50px;
@@ -2985,7 +2986,7 @@
 	}
 	.info-maiviet{
 		text-align: center;
-		background: url(/public/upload/files/gb.jpg) center center;
+		background: url(img/bg.png) center center;
 		color: #fff;
 		    padding-bottom: 30px;
 	}
@@ -3000,31 +3001,31 @@
         margin-top: 15px;
 	}
 	.info-maiviet .thumb1{
-		background: url(/data/icon/icon2-trang.png) center center no-repeat;
+		background: url(img/icon2-trang.png) center center no-repeat;
 	}
     .info-maiviet .thumb1:hover{
-    	background: url(/data/icon/icon2.png) center center no-repeat;
+    	background: url(img/icon2.png) center center no-repeat;
     	background-color: #fff;
     }
     .info-maiviet .thumb2{
-		background: url(/data/icon/icon3-trang.png) center center no-repeat;
+		background: url(img/icon3-trang.png) center center no-repeat;
 	}
     .info-maiviet .thumb2:hover{
-    	background: url(/data/icon/icon3.png) center center no-repeat;
+    	background: url(img/icon3.png) center center no-repeat;
     	background-color: #fff;
     }
     .info-maiviet .thumb3{
-		background: url(/data/icon/icon4-trang.png) center center no-repeat;
+		background: url(img/icon4-trang.png) center center no-repeat;
 	}
     .info-maiviet .thumb3:hover{
-    	background: url(/data/icon/icon4.png) center center no-repeat;
+    	background: url(img/icon4.png) center center no-repeat;
     	background-color: #fff;
     }
     .info-maiviet .thumb4{
-		background: url(/data/icon/icon1-trang.png) center center no-repeat;
+		background: url(img/icon1-trang.png) center center no-repeat;
 	}
     .info-maiviet .thumb4:hover{
-    	background: url(/data/icon/icon1.png) center center no-repeat;
+    	background: url(img/icon1.png) center center no-repeat;
     	background-color: #fff;
     }
 	.info-maiviet h4{
@@ -3037,7 +3038,7 @@
 	}
 	.info-maiviet .button{
 		background-color: #fff;
-	    color: #b8292f;
+	    color: #818285;
 	    font-size: 20px;
 	    font-weight: bold;
 	    padding: 7px 20px;
@@ -3050,7 +3051,7 @@
 	#content h1{
 	    text-align: center;
 	    text-transform: uppercase;
-	    color: #b8292f;
+	    color: #818285;
 	    font-size: 24px;
 	    margin: 20px auto;
 	}
@@ -3108,15 +3109,15 @@ color: #fff;}
     width: 88%;
     border-top: 1px solid #ddd;
     margin-left: 2%;}
-.list-comments .content-comments h6{font-weight: bold;color: #b8292f;}
-.list-comments .content-comments button{background: none;border: 1px solid #b8292f;padding: 4px 7px;}
-.list-comments .content-comments button:hover{background-color: #b8292f;color: #fff;}
+.list-comments .content-comments h6{font-weight: bold;color: #818285;}
+.list-comments .content-comments button{background: none;border: 1px solid #818285;padding: 4px 7px;}
+.list-comments .content-comments button:hover{background-color: #818285;color: #fff;}
 .close{}
 
 /* about */
 .about{background-color: #ddd;    padding-bottom: 30px;    padding-top: 55px;}
 .about p{text-align: center;}
-.about h3{color: #b8292f;font-size: 24px;    text-align: center;font-family: Helvetica,Arial,sans-serif;text-transform: uppercase;font-weight: 100;}
+.about h3{color: #245c2e;font-size: 24px;    text-align: center;font-family: Helvetica,Arial,sans-serif;text-transform: uppercase;font-weight: 100; font-weight: bold;}
 .about .info-iteam{position: relative;}
 .about .infor{position: absolute;bottom: 0;width: 100%;text-align: center;}
 .about h4{color:#fff;font-size: 22px;}
@@ -3160,7 +3161,7 @@ blockquote p{
   position: absolute;
   background-color: transparent;
   border-radius: 100%;
-  border: 2px solid #e60808;
+  border: 2px solid #245c2e;
   -webkit-animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
   animation: phonering-alo-circle-anim 1.2s infinite ease-in-out;
   transition: all .5s;
@@ -3175,7 +3176,7 @@ blockquote p{
   top: 25px;
   left: 25px;
   position: absolute;
-  background-color: rgba(230, 8, 8, 0.7);
+  background-color: #245c2e;
   border-radius: 100%;
   border: 2px solid transparent;
   -webkit-animation: phonering-alo-circle-fill-anim 2.3s infinite ease-in-out;
@@ -3186,7 +3187,7 @@ blockquote p{
   transform-origin: 50% 50%;
 }
 .hotline-phone-ring-img-circle {
-	background-color: #e60808;
+	background-color: #245c2e;
 	width: 33px;
   height: 33px;
   top: 37px;
@@ -3219,7 +3220,7 @@ blockquote p{
 }
 .hotline-bar {
   position: absolute;
-  background: #b92c32;
+  background: #e78a23;
   border: 2px solid #fff;
   height: 40px;
   width: 180px;

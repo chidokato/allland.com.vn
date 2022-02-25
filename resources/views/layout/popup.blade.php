@@ -42,7 +42,7 @@
 		<p><input type="text" placeholder="Họ và tên" class="" name="name"></p>
 		<p><input required type="tel" placeholder="Số điện thoại (*)" class="" name="phone" id="phone"><p>
 		<p><input type="email" placeholder="Địa chỉ email" class="" name="email"><p>
-		<p><button style='background-color: #b8292f;color: #fff;padding: 10px 20px;border: none;border-radius: 5px;' type="submit"><i class='fa fa-download' aria-hidden='true'></i> TẢI XUỐNG </button></p>
+		<p><button style='background-color: #e78a23;color: #fff;padding: 10px 20px;border: none;border-radius: 5px;' type="submit"><i class='fa fa-download' aria-hidden='true'></i> TẢI XUỐNG </button></p>
 	</form>
 	<a id="myclose" style="display: inline;"></a>
 </div>
@@ -66,16 +66,15 @@ $(document).ready(function(){
     text-align: center;
     margin: 0 auto;
 	z-index: 999999;
-    background-color: #285ab5;
+    background-color: #245c2e;
     padding: 20px 20px 5px;
-    border: 1px #fff solid;
 	-webkit-animation-name: example;  /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */    
     -webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
     animation-name: example;
     animation-duration: 2s;    
     animation-fill-mode: forwards;
-	width: 450px;
+	width: 450px;box-shadow: 0px 0px 10px 2px;
 }
 
 @-webkit-keyframes example {
@@ -91,7 +90,7 @@ $(document).ready(function(){
 	padding: 5px 10px;width: 100%;
 }
 .pubup input[type='submit']{
-	background-color: #bf2130;
+	background-color: #e78a23;
 	color: #fff;
 	font-weight: bold;
 	padding: 0px 22px;

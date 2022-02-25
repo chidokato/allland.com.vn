@@ -39,7 +39,7 @@
 							</header>
 							<section class="panel-body">
 								<ul class="uk-list list">
-									<li style="font-size: 1.4rem;"><div style='color: #fff; font-size: 14pt;line-height: 28px;'><strong>{{$head_setting->name}} - MAI VIET LAND</strong></div></li>
+									<li style="font-size: 1.4rem;"><div style='color: #fff; font-size: 14pt;line-height: 28px;'><strong>{{$head_setting->name}}</strong></div></li>
 									<li >Địa chỉ: {{$head_setting->address}} (<a target='_blank' href='https://g.page/MAIVIETLAND?share'>Xem trên bản đồ</a>)</li>
 									<li >Hotline: <a href="tel: {{$head_setting->hotline}}" title="Hotline">{{$head_setting->hotline}}</a> @if($head_setting->hotline1) - <a href="tel: {{$head_setting->hotline1}}" title="Hotline">{{$head_setting->hotline1}}</a> @endif</li>
 									<li >Địa chỉ email: <a href="mailto: {{$head_setting->email}}" title="Email">{{$head_setting->email}}</a></li>
@@ -57,26 +57,22 @@
 							<section class="panel-body">
 								<ul class="uk-list list">
 									<li >
-										<a href="https://maivietland.vn/">Mai Việt Land</a> | 
-										<a href="https://maivietland.vn/gioi-thieu" >Giới thiệu</a> | 
-										<a href="https://maivietland.vn/lien-he" >Liên hệ</a> | 
-										<a href="https://maivietland.vn/tin-tuc-bds/chinh-sach-bao-mat-thong-tin-khach-hang-tai-mai-viet-land/65.html">Chính sách bảo mật</a> | 
-										<a href="https://maivietland.vn/sitemap">Sitemap</a>
+										<a href="https://allland.com.vn/">Mai Việt Land</a> | 
+										<a href="https://allland.com.vn/gioi-thieu" >Giới thiệu</a> | 
+										<a href="https://allland.com.vn/lien-he" >Liên hệ</a> | 
+										<a href="">Chính sách bảo mật</a> | 
+										<a href="https://allland.com.vn/sitemap">Sitemap</a>
 									</li>
 									<li>
-										<a href="//www.dmca.com/Protection/Status.aspx?ID=57cafdb0-8cfc-46d7-a844-672a5e14bb31" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca_protected_sml_120m.png?ID=57cafdb0-8cfc-46d7-a844-672a5e14bb31"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script>
-										
-										
+										<!-- <a href="//www.dmca.com/Protection/Status.aspx?ID=57cafdb0-8cfc-46d7-a844-672a5e14bb31" title="DMCA.com Protection Status" class="dmca-badge"> <img src ="https://images.dmca.com/Badges/dmca_protected_sml_120m.png?ID=57cafdb0-8cfc-46d7-a844-672a5e14bb31"  alt="DMCA.com Protection Status" /></a>  <script src="https://images.dmca.com/Badges/DMCABadgeHelper.min.js"> </script> -->
 									</li>
 									<li>
 										
-										<a href="https://www.copyscape.com/"><img src="https://banners.copyscape.com/img/copyscape-banner-blue-200x25.png" width="200" height="25" border="0" alt="Protected by Copyscape" title="Protected by Copyscape - Do not copy content from this page." /></a>
+										<!-- <a href="https://www.copyscape.com/"><img src="https://banners.copyscape.com/img/copyscape-banner-blue-200x25.png" width="200" height="25" border="0" alt="Protected by Copyscape" title="Protected by Copyscape - Do not copy content from this page." /></a> -->
 										
 									</li>
 									<li>
-									<a href="http://online.gov.vn/Home/WebDetails/62546">
-										<img style='width: 65%;' alt="thông báo bộ công thương" src="/public/upload/files/logoSaleNoti.png"/>
-									</a>
+									<!-- <a href="http://online.gov.vn/Home/WebDetails/62546"><img style='width: 65%;' alt="thông báo bộ công thương" src="/public/upload/files/logoSaleNoti.png"/></a> -->
 									</li>
 									
 								</ul>
