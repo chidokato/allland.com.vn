@@ -40,7 +40,7 @@
 							<section class="panel-body">
 								<ul class="uk-list list">
 									<li style="font-size: 1.4rem;"><div style='color: #fff; font-size: 14pt;line-height: 28px;'><strong>{{$head_setting->name}}</strong></div></li>
-									<li >Địa chỉ: {{$head_setting->address}} (<a target='_blank' href='https://g.page/MAIVIETLAND?share'>Xem trên bản đồ</a>)</li>
+									<li >Địa chỉ: {{$head_setting->address}} </li>
 									<li >Hotline: <a href="tel: {{$head_setting->hotline}}" title="Hotline">{{$head_setting->hotline}}</a> @if($head_setting->hotline1) - <a href="tel: {{$head_setting->hotline1}}" title="Hotline">{{$head_setting->hotline1}}</a> @endif</li>
 									<li >Địa chỉ email: <a href="mailto: {{$head_setting->email}}" title="Email">{{$head_setting->email}}</a></li>
 									<li >Website: <a target="_blank" href="{{asset('')}}" title="Website">allland.com.vn</a></li>

@@ -42,7 +42,7 @@
 		<p><input type="text" placeholder="Họ và tên" class="" name="name"></p>
 		<p><input required type="tel" placeholder="Số điện thoại (*)" class="" name="phone" id="phone"><p>
 		<p><input type="email" placeholder="Địa chỉ email" class="" name="email"><p>
-		<p><button style='background-color: #e78a23;color: #fff;padding: 10px 20px;border: none;border-radius: 5px;' type="submit"><i class='fa fa-download' aria-hidden='true'></i> TẢI XUỐNG </button></p>
+		<p><button style='background-color: #2e6034;color: #fff;padding: 10px 20px;border: none;border-radius: 5px;' type="submit"><i class='fa fa-download' aria-hidden='true'></i> TẢI XUỐNG </button></p>
 	</form>
 	<a id="myclose" style="display: inline;"></a>
 </div>
@@ -66,7 +66,7 @@ $(document).ready(function(){
     text-align: center;
     margin: 0 auto;
 	z-index: 999999;
-    background-color: #245c2e;
+    background-color: #e78a23;
     padding: 20px 20px 5px;
 	-webkit-animation-name: example;  /* Safari 4.0 - 8.0 */
     -webkit-animation-duration: 3s;  /* Safari 4.0 - 8.0 */    

@@ -252,6 +252,8 @@ class c_frontend extends Controller
 
     public function dangky(Request $Request)
     {
+        $head_setting = setting::where('id',1)->first();
+        $mail = $head_setting['email'];
 		if (!empty($_SERVER['HTTP_CLIENT_IP']))     
 		  {  
 			$ip_address = $_SERVER['HTTP_CLIENT_IP'];  
@@ -275,12 +277,12 @@ class c_frontend extends Controller
 		$order->date = date('m/d/Y h:i:s', time());
 		$order->save();
         
-        //Mail::send('email_feedback', array('name'=>$name,'phone'=>$phone,'email'=>$email,'link'=>$link,'content'=>$content,'date'=>$date), function($message){
-        //    $message->from('tuan.pn92@gmail.com', 'http://maivietland.vn/');
-        //    $message->to('tuan.pn92@gmail.com', 'http://maivietland.vn/')->subject('Thông tin khách hàng');
-        //});
-        return view('pages.thankyou',['activemenu'=>$activemenu]);
-        //return redirect('/')->with('Alerts','Thành công');
+        Mail::send('email_feedback', array('name'=>$Request->name,'phone'=>$Request->phone,'email'=>$Request->email,'link'=>$Request->link,'content'=>$Request->content,'date'=>$order->date), function($message) use ($mail){
+           $message->from($mail, 'allland.com.vn');
+           $message->to($mail, 'allland.com.vn')->subject('Thông tin khách hàng');
+        });
+        // return view('pages.thankyou',['activemenu'=>$activemenu]);
+        return redirect('/')->with('Alerts','Thành công');
     }
 
 
