@@ -43,7 +43,7 @@
 									<li >Địa chỉ: {{$head_setting->address}} (<a target='_blank' href='https://g.page/MAIVIETLAND?share'>Xem trên bản đồ</a>)</li>
 									<li >Hotline: <a href="tel: {{$head_setting->hotline}}" title="Hotline">{{$head_setting->hotline}}</a> @if($head_setting->hotline1) - <a href="tel: {{$head_setting->hotline1}}" title="Hotline">{{$head_setting->hotline1}}</a> @endif</li>
 									<li >Địa chỉ email: <a href="mailto: {{$head_setting->email}}" title="Email">{{$head_setting->email}}</a></li>
-									<li >Website: <a target="_blank" href="https://maivietland.vn/" title="Website">maivietland.vn</a></li>
+									<li >Website: <a target="_blank" href="{{asset('')}}" title="Website">allland.com.vn</a></li>
 								</ul>
 							</section>
 						</section><!-- .panel -->
