@@ -244,7 +244,7 @@ class="current-menu-item"
     <section class="section-home info-maiviet">
         <div class="uk-container uk-container-center">
             <header class="panel-head">
-                <h2><a href="#">MAI VIỆT LAND</a></h2>
+                <h2><a href="#">All lAND</a></h2>
                 <p>CUNG CẤP GIẢI PHÁP BẤT ĐỘNG SẢN TOÀN DIỆN CHO KHÁCH HÀNG</p>
             </header>
             <div class="panel-body">
@@ -274,7 +274,7 @@ class="current-menu-item"
 									<div class="thumb thumb3"></div>
 									<div class="infor" style='background: none;'>
 										<h4>ĐỒNG BỘ TỪ A-Z</h4>
-										<p>MAI VIỆT LAND tư vấn căn hộ ở, đầu tư, kinh doanh cho khách hàng để tối ưu công năng sử dụng và mục tiêu tài chính.</p>
+										<p>ALL LAND tư vấn căn hộ ở, đầu tư, kinh doanh cho khách hàng để tối ưu công năng sử dụng và mục tiêu tài chính.</p>
 									</div>
 								</div>
 							</li>
