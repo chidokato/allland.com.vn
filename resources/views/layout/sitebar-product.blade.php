@@ -74,7 +74,7 @@
                     <input type="text" name="name" placeholder='Nguyễn Văn A' />
                     <input type="tel" name="phone" placeholder='0988666888 *' id="phone" />
                     <input type="mail" name="email" placeholder='ten_email@gmail.com' />
-                    <textarea rows='4' name='content'>Xin chào Mai Việt Land ! Tôi đang quan tâm tới dự án {{$datas->name}}</textarea>
+                    <textarea rows='4' name='content'>Xin chào All land ! Tôi đang quan tâm tới dự án {{$datas->name}}</textarea>
 					
 					<input type="submit" name="btlsubmit" value="LIÊN HỆ" />
                 </form>

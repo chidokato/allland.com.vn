@@ -138,7 +138,7 @@
 	.pc-header .lower {
 		background: url(img/bg.png) center center;
 		/*background: #245c2e;*/
-	    border-bottom: 1px solid #818285;
+	    border-bottom: 1px solid #2e6034;
 	}
 	.main-nav>.main-menu li {position: relative;}
 	.main-nav>.main-menu>li>a {
@@ -149,11 +149,11 @@
 		line-height: 67px;
 		text-transform: uppercase;
 		color: #fff;
-		font-family: Helvetica,Arial,sans-serif;border-left: 1px solid #818285;
+		font-family: Helvetica,Arial,sans-serif;border-left: 1px solid #2e6034;
 	}
 	.icon a{padding: 0px !important;}
 	.main-nav>.main-menu .icon:hover>a, .main-nav>.main-menu .icon .active>a{
-		border-bottom: #818285 solid 2px;
+		border-bottom: #2e6034 solid 2px;
 	}
 	
 	.main-nav>.main-menu>li>a:before {
@@ -376,9 +376,9 @@
 		line-height: 24px;
 		font-size: 15pt;
 		font-weight: bold;
-		color: #818285;
+		color: #2e6034;
 	}
-	.heading-2>* {color: #818285;}
+	.heading-2>* {color: #2e6034;}
 
 
 	@media (min-width: 960px) {
@@ -475,7 +475,7 @@
 	.aside-prd-detail .heading {
 		margin: 0;
 		padding: 10px 10px 10px 15px;
-		background: #818285;
+		background: #2e6034;
 		font-size: 13px;
 		font-weight: normal;
 		font-family: Helvetica,Arial,sans-serif;
@@ -728,7 +728,7 @@
 	}
 	.homepage-category .product .title a,
 	.prdcatalogue .product .title a {
-		color: #818285;
+		color: #2e6034;
 	}
 	.homepage-category .product .btn-groups,
 	.prdcatalogue .product .btn-group {
@@ -1641,7 +1641,7 @@
 	/* ######################## Tab ######################## */
 	.nav-tabs {
 		border: 1px solid #ddd;
-		//border-bottom: 2px dashed #818285;
+		//border-bottom: 2px dashed #2e6034;
 		border-bottom: none;
 	}
 	.nav-tabs li {
@@ -1651,7 +1651,7 @@
 		line-height: 20px;
 		font-weight: normal;
 		cursor: pointer;
-		color: #818285;
+		color: #2e6034;
 	    font-size: 17px;
 	    font-weight: normal;
 	    font-family: Helvetica,Arial,sans-serif;
@@ -1765,7 +1765,7 @@
 	    font-size: 24px;
 	    line-height: 30px;
 	    font-weight: bold;
-        color: #818285;
+        color: #2e6034;
 	}
 	.prd-detail .prd-price {
 		margin: 0 0 20px 0;
@@ -1783,7 +1783,7 @@
 		width: 100%;
 		padding: 20px 20px 20px 90px;
 		margin-bottom: 20px;
-		background: #818285 url(img/icon_phone.png) 25px 50% no-repeat;
+		background: #2e6034 url(img/icon_phone.png) 25px 50% no-repeat;
 		color: #fff;
 		font-size: 16px;
 		line-height: 22px;
@@ -1877,9 +1877,9 @@
 		font-family: Helvetica,Arial,sans-serif;
 	}
 	.price span{
-	    font-size: 17px;
+	    font-size: 19px;
 	    font-weight: bold;
-	    color: #818285;
+	    color: #e78a23;
 	}
 	.description{
 	    border-top: 1px solid #ddd;
@@ -2333,7 +2333,7 @@
 	.consultants-section .hotline a {
 		font-size: 22px;
 		font-weight: bold;
-		color: #818285;
+		color: #2e6034;
 	}
 	.consultants-section .form {
 		position: relative;
@@ -2347,7 +2347,7 @@
 		height: 50px;
 		padding: 0 10px 0 25px;
 		background: #fff;
-		border: 4px solid #818285;
+		border: 4px solid #2e6034;
 		border-right: none;
 		line-height: 50px;	
 		font-size: 14px;
@@ -2361,8 +2361,8 @@
 		top: 0px;
 		left: initial;
 		right: 0px;
-		border: 4px solid #818285;
-		background: #818285;
+		border: 4px solid #2e6034;
+		background: #2e6034;
 		color: #fff;
 		font-size: 15px;
 		cursor: pointer;
@@ -2747,7 +2747,7 @@
 	/*them css*/
 	.clr{clear: both;}
 	.product-nav{
-		background-color: #818285;
+		background-color: #2e6034;
 		box-shadow: 0 2px 3px rgba(0, 0, 0, 0.11);
 		border-bottom: 1px solid #d7d7d7;
 		padding: 0px;
@@ -2782,7 +2782,7 @@
 	{
 		padding-top: 27px;
 	}
-	.chinh-sach{border: 1px #fff solid;background-color: #818285;    position: relative;}
+	.chinh-sach{border: 1px #fff solid;background-color: #2e6034;    position: relative;}
 	.chinh-sach p{    font-size: 16px;
     line-height: 24px;
     text-align: justify;font-family: Helvetica,Arial,sans-serif;color: #fff;    margin-bottom: 0px;
@@ -2798,7 +2798,7 @@
 		padding: 10px 15px;
 		background-color: #ffffff;
 		font-size: 40px;
-		color: #818285;
+		color: #2e6034;
 		position: absolute;
 		top: 0;
 		    left: 25px;
@@ -2822,7 +2822,7 @@
 	    margin-bottom: 15px;
 	}
 	.dangky input[type="submit"]{
-		background-color: #818285;
+		background-color: #2e6034;
 	    color: #fff;
 	    border: none;
 	    padding: 10px 20px;
@@ -2858,7 +2858,7 @@
 	.product .price-hot{
 	    top: 5px;
 	    left: 5px;
-	    background-color: #818285;
+	    background-color: #e78a23;
 		padding: 6px 10px;
 		color: #fff !important;
 		border-radius: 5px;
@@ -2866,7 +2866,7 @@
 	.product .price{
 	    bottom: 5px;
 	    left: 5px;
-	    background-color: #818285;
+	    background-color: #e78a23;
 	    color: #fff;
 		padding: 6px 10px;
 		border: none;
@@ -2883,7 +2883,7 @@
 	    
 	}
 	.infor h3 a{
-		color: #818285;
+		color: #2e6034;
 	}
 
 	.dat-cho {
@@ -2957,7 +2957,7 @@
 	}
 	.main-search input[type="submit"]{
 	    background-color: #fff;
-	    color: #818285;
+	    color: #2e6034;
 	    font-weight: bold;border-radius: 5px;
 	}
 	.main-hot{
@@ -2976,7 +2976,7 @@
 	    margin-bottom: 30px;line-height: 30px;
 	}
 	.img-flash{
-		border: 1px solid #818285;
+		border: 1px solid #2e6034;
 	}
 	.bg-dangky{
 		padding: 50px;
@@ -3038,7 +3038,7 @@
 	}
 	.info-maiviet .button{
 		background-color: #fff;
-	    color: #818285;
+	    color: #2e6034;
 	    font-size: 20px;
 	    font-weight: bold;
 	    padding: 7px 20px;
@@ -3051,7 +3051,7 @@
 	#content h1{
 	    text-align: center;
 	    text-transform: uppercase;
-	    color: #818285;
+	    color: #2e6034;
 	    font-size: 24px;
 	    margin: 20px auto;
 	}
@@ -3109,9 +3109,9 @@ color: #fff;}
     width: 88%;
     border-top: 1px solid #ddd;
     margin-left: 2%;}
-.list-comments .content-comments h6{font-weight: bold;color: #818285;}
-.list-comments .content-comments button{background: none;border: 1px solid #818285;padding: 4px 7px;}
-.list-comments .content-comments button:hover{background-color: #818285;color: #fff;}
+.list-comments .content-comments h6{font-weight: bold;color: #2e6034;}
+.list-comments .content-comments button{background: none;border: 1px solid #2e6034;padding: 4px 7px;}
+.list-comments .content-comments button:hover{background-color: #2e6034;color: #fff;}
 .close{}
 
 /* about */
