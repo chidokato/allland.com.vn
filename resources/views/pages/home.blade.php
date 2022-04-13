@@ -53,7 +53,7 @@ class="current-menu-item"
 					<div class="uk-slider-container">
 						<ul class="uk-slider uk-grid lib-grid-20 uk-grid-width-1-2 uk-grid-width-medium-1-4 uk-grid-width-large-1-4 list-article" data-uk-grid-match="{target:'.title'}" >
 							<li>
-								<a href='https://maivietland.vn/location/ha-noi'>
+								<a href='https://allland.com.vn/location/ha-noi'>
 								<div class="info-iteam">
 									<div class="thumb thumb1"><img src='/public/upload/files/hanoi.png'></div>
 									<div class="infor" style='background: none;'>
@@ -63,7 +63,7 @@ class="current-menu-item"
 								</a>
 							</li>
 							<li>
-								<a href='https://maivietland.vn/location/khanh-hoa'>
+								<a href='https://allland.com.vn/location/khanh-hoa'>
 								<div class="info-iteam">
 									<div class="thumb thumb1"><img src='/public/upload/files/khanhhoa.jpg'></div>
 									<div class="infor" style='background: none;'>
@@ -73,7 +73,7 @@ class="current-menu-item"
 								</a>
 							</li>
 							<li>
-								<a href='https://maivietland.vn/location/vinh-phuc'>
+								<a href='https://allland.com.vn/location/vinh-phuc'>
 								<div class="info-iteam">
 									<div class="thumb thumb1"><img src='/public/upload/files/vinhphuc.jpg'></div>
 									<div class="infor" style='background: none;'>
@@ -83,7 +83,7 @@ class="current-menu-item"
 								</a>
 							</li>
 							<li>
-								<a href='https://maivietland.vn/location/quang-ninh'>
+								<a href='https://allland.com.vn/location/quang-ninh'>
 								<div class="info-iteam">
 									<div class="thumb thumb1"><img src='/public/upload/files/quangninh.jpg'></div>
 									<div class="infor" style='background: none;'>
@@ -93,7 +93,7 @@ class="current-menu-item"
 								</a>
 							</li>
 							<li>
-								<a href='https://maivietland.vn/location/quang-nam'>
+								<a href='https://allland.com.vn/location/quang-nam'>
 								<div class="info-iteam">
 									<div class="thumb thumb1"><img src='/public/upload/files/quangnam.jpg'></div>
 									<div class="infor" style='background: none;'>
@@ -103,7 +103,7 @@ class="current-menu-item"
 								</a>
 							</li>
 							<li>
-								<a href='https://maivietland.vn/location/hung-yen'>
+								<a href='https://allland.com.vn/location/hung-yen'>
 								<div class="info-iteam">
 									<div class="thumb thumb1"><img src='/public/upload/files/hungyen.jpg'></div>
 									<div class="infor" style='background: none;'>
@@ -113,7 +113,7 @@ class="current-menu-item"
 								</a>
 							</li>
 							<li>
-								<a href='https://maivietland.vn/location/hai-phong'>
+								<a href='https://allland.com.vn/location/hai-phong'>
 								<div class="info-iteam">
 									<div class="thumb thumb1"><img src='/public/upload/files/haiphong.png'></div>
 									<div class="infor" style='background: none;'>
